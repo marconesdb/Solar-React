@@ -17,15 +17,15 @@ function Caridade() {
             {/* Artigo em Português */}
             <p className="text-lg mb-4 text-justify font-bold ml-4 mr-4 mt-4">Introdução</p>
             <p className="text-lg mb-4 text-justify ml-4 mr-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+            Bem-vindo à página dedicada à exploração dos princípios da caridade segundo Jesus Cristo. Neste artigo, mergulharemos nos ensinamentos que transcendem o tempo, inspirando e impactando a vida de milhões ao redor do mundo. Descubra como a benevolência, indulgência e perdão das ofensas formam a essência dessa virtude.
             </p>
             <p className="text-lg mb-4 text-justify font-bold ml-4 mr-4">Benevolência: Amar o Próximo como a Si Mesmo</p>
             <p className="text-lg mb-4 text-justify ml-4 mr-4">
-              Phasellus blandit leo ut odio. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis.
+            Jesus ensinou um amor desinteressado e compassivo, estendendo-se a todos, independentemente de suas origens, status social ou fé. Descubra como a benevolência vai além das palavras, manifestando-se em ações concretas de ajuda aos necessitados, cuidado aos enfermos e generosidade.
             </p>
             <p className="text-lg mb-4 text-justify font-bold ml-4 mr-4">Indulgência: Compreensão e Aceitação das Fraquezas Humanas</p>
             <p className="text-lg text-justify ml-4 mr-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+            Descubra o papel central do perdão na mensagem de Jesus. Saiba como perdoar não implica esquecer, mas libertar-se do peso do rancor e da amargura. Testemunhe o exemplo de Jesus, que praticou o perdão mesmo durante sua crucificação, oferecendo uma lição profunda sobre amor e libertação.
             </p>
 
             <p className="text-lg mb-4 text-justify font-bold ml-4 mr-4">Perdão das Ofensas: A Liberação do Peso do Rancor</p>

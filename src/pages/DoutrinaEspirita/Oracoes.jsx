@@ -36,6 +36,13 @@ import audioEnglish2 from './Audio-Orações/O Great Creator of the Universe.mp3
 import audioEspanol2 from './Audio-Orações/Oh Gran Creador del Universo.mp3';
 
 
+import audioEspanol10 from './Audio-Orações/Perdón.mp3';
+import audioEnglish10 from './Audio-Orações/Forgiveness.mp3';
+
+
+import audioEspanol11 from './Audio-Orações/Oración por los que tienen hambre en Navidad-Espanhol.mp3';
+import audioEnglish11 from './Audio-Orações/Prayer for those who are hungry at Christmas-Inglês.mp3';
+
 import audioEspanol12 from './Audio-Orações/Oración por los criminales.mp3';
 import audioEnglish12 from './Audio-Orações/Prayer for criminals.mp3';
 
@@ -489,18 +496,31 @@ export default function Oracoes() {
           <div className="text-center md:text-left justify-center items-center">
             <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
             <p className="text-justify">
-              Ó Deus, nosso Pai,
-              Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
-              Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
-              No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
-              Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-              Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
+                   <p><b>Perdão</b></p>
+
+              Perdoa a quem te ofendeu, esquecendo-te do que ele fez. Dá o teu irmão não só o que tens, mas um poucou de Ti mesmo...
+
+              Consolando aquêle que sofre, dá-lhe o teu amor. Alegra-te com quem é feliz, agradecendo ao Senhor por ele. Que a rotina não diminua o ardor dos teus atos.
+
+              Nunca justifiques o que é condenável. Nem toleres o mal que o mundo aceita. E a Paz do Natal descerá sobre Ti.
               <br />
               <b>Prayer in English:</b>
-              O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
+                      <p><b>Forgiveness</b></p>
+
+                Forgive anyone who offended you, forgetting what he did. Give your brother not only what you have, but a little of yourself...
+
+                Consoling the one who suffers, give him your love. Rejoice with those who are happy, thanking the Lord for them. May routine not diminish the ardor of your actions.
+
+                Never justify what is reprehensible. Nor tolerate the evil that the world accepts. And the Peace of Christmas will descend upon You.
               <br />
               <b>Oración en español:</b>
-              Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
+                 <p><b>Perdón</b></p>
+
+              Perdona a quien te haya ofendido, olvidando lo que hizo. Dale a tu hermano no sólo lo que tienes, sino un poco de ti mismo...
+
+              Consolando al que sufre, dale tu amor. Alegraos con los que están felices, dando gracias al Señor por ellos. Que la rutina no disminuya el ardor de tus acciones.
+
+              Nunca justifiques lo que es reprobable. Ni tolerar el mal que el mundo acepta. Y la Paz de la Navidad descenderá sobre Ti.
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
@@ -509,12 +529,12 @@ export default function Oracoes() {
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>
             <audio controls>
-              <source src={audioEnglish1} type="audio/mp3" />
+              <source src={audioEnglish10} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Oración en audio: español</em></b></p>
             <audio controls>
-              <source src={audioEspanol1} type="audio/mp3" />
+              <source src={audioEspanol10} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
           </div>
@@ -525,25 +545,68 @@ export default function Oracoes() {
         {/* Oração 11 */}
         <div className="container mx-auto p-4 md:p-8 border border-orange400 rounded-md flex flex-col md:flex-row items-center mt-8">
           <img
-            src={img11}
+            src={img8}
             alt="Imagem"
             className="w-32 h-auto md:w-48 md:h-auto rounded mr-4 md:mr-8 mt-4 md:mt-0"
           />
           <div className="text-center md:text-left justify-center items-center">
             <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
             <p className="text-justify">
-              Ó Deus, nosso Pai,
-              Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
-              Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
-              No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
-              Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-              Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
+               <p><b>Oração para quem tem fome no Natal</b></p>
+
+            Pai Celestial, No Natal, celebramos o nascimento de Jesus, o Pão da Vida.
+
+            Mas sabemos que, em muitos lugares do mundo, ainda há pessoas que passam fome. Pedimos-te que olheis para aqueles que sofrem nesta noite santa. Que lhes envieis o Vosso amor e o Vosso sustento.
+
+            Que lhes abris as Vossas portas e lhes mostrais a Vossa misericórdia. Que lhes dais o pão que alimenta o corpo e a alma. Que lhes dais a paz e a esperança.
+
+            Pedimos-te também que nos ajudeis a sermos mais solidários com os que passam fome. Que nos inspireis a partilhar o que temos com os que precisam.
+
+            Que nos mostreis como podemos fazer a diferença no mundo. Em nome de Jesus, o Pão da Vida, Amém.
+
+            (Pode-se acrescentar uma frase pessoal, pedindo a Deus que abençoe alguém específico que passa fome.) Esta oração pode ser rezada individualmente ou em grupo.
+
+            Ela é uma forma de expressarmos a nossa compaixão pelos que sofrem e de pedirmos a Deus que os abençoe.
+
+            Ela também é uma oportunidade de nos comprometermos a sermos mais solidários com os que passam fome.
               <br />
               <b>Prayer in English:</b>
-              O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
+                  <p><b>Prayer for those who are hungry at Christmas</b></p>
+
+              Heavenly Father, At Christmas, we celebrate the birth of Jesus, the Bread of Life.
+
+              But we know that, in many places around the world, there are still people who go hungry. We ask you to look at those who suffer on this holy night. May You send them Your love and Your sustenance.
+
+              May You open Your doors to them and show them Your mercy. May you give them the bread that feeds the body and soul. May you give them peace and hope.
+
+              We also ask you to help us be more supportive of those who are hungry. May you inspire us to share what we have with those who need it.
+
+              May you show us how we can make a difference in the world. In the name of Jesus, the Bread of Life, Amen.
+
+              (You can add a personal phrase, asking God to bless someone specific who is hungry.) This prayer can be prayed individually or in a group.
+
+              It is a way of expressing our compassion for those who suffer and asking God to bless them.
+
+              It is also an opportunity to commit to being more supportive of those who are hungry.
               <br />
               <b>Oración en español:</b>
-              Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
+                   <p><b>Oración por los que tienen hambre en Navidad</b></p>
+
+              Padre celestial, En Navidad celebramos el nacimiento de Jesús, el Pan de Vida.
+
+              Pero sabemos que en muchos lugares del mundo todavía hay personas que pasan hambre. Te pedimos que mires a los que sufren en esta noche santa. Que les envíes Tu amor y Tu sustento.
+
+              Que les abras Tus puertas y les muestres Tu misericordia. Que les des el pan que alimenta el cuerpo y el alma. Que les des paz y esperanza.
+
+              También te pedimos que nos ayudes a ser más solidarios con quienes tienen hambre. Que nos inspires a compartir lo que tenemos con quienes lo necesitan.
+
+              Que nos muestres cómo podemos marcar la diferencia en el mundo. En el nombre de Jesús, el Pan de Vida, Amén.
+
+              (Puede agregar una frase personal, pidiéndole a Dios que bendiga a alguien específico que tenga hambre). Esta oración se puede rezar individualmente o en grupo.
+
+              Es una forma de expresar nuestra compasión por quienes sufren y pedirle a Dios que los bendiga.
+
+              También es una oportunidad para comprometernos a apoyar más a quienes tienen hambre.
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
@@ -552,12 +615,12 @@ export default function Oracoes() {
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>
             <audio controls>
-              <source src={audioEnglish1} type="audio/mp3" />
+              <source src={audioEnglish11} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Oración en audio: español</em></b></p>
             <audio controls>
-              <source src={audioEspanol1} type="audio/mp3" />
+              <source src={audioEspanol11} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
           </div>

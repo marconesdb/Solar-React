@@ -12,7 +12,7 @@ import img7 from '../DoutrinaEspirita/img-oracoes/IMG-7.png'
 import img8 from '../DoutrinaEspirita/img-oracoes/IMG-8.png'
 import img9 from '../DoutrinaEspirita/img-oracoes/IMG-9.png'
 import img10 from '../DoutrinaEspirita/img-oracoes/IMG-10.png'
-import img11 from '../DoutrinaEspirita/img-oracoes/IMG-11.png';
+// import img11 from '../DoutrinaEspirita/img-oracoes/IMG-11.png';
 import img12 from '../DoutrinaEspirita/img-oracoes/IMG-12.png'
 import img13 from '../DoutrinaEspirita/img-oracoes/IMG-13.png'
 import img14 from '../DoutrinaEspirita/img-oracoes/IMG-14.png'
@@ -35,6 +35,8 @@ import audioEspanol1 from './Audio-Orações/Oh Dios, Padre nuestro.mp3';
 import audioEnglish2 from './Audio-Orações/O Great Creator of the Universe.mp3';
 import audioEspanol2 from './Audio-Orações/Oh Gran Creador del Universo.mp3';
 
+import audioEspanol4 from './Audio-Orações/Oración de Esperanza.mp3';
+import audioEnglish4 from './Audio-Orações/Prayer of Hope.mp3';
 
 import audioEspanol10 from './Audio-Orações/Perdón.mp3';
 import audioEnglish10 from './Audio-Orações/Forgiveness.mp3';
@@ -189,45 +191,7 @@ export default function Oracoes() {
         {/*Fim - Oração 2 */}
         {/* ======== */}
         {/* Oração 3 */}
-        <div className="container mx-auto p-4 md:p-8 border border-orange400 rounded-md flex flex-col md:flex-row items-center mt-8">
-          <img
-            src={img3}
-            alt="Imagem"
-            className="w-32 h-auto md:w-48 md:h-auto rounded mr-4 md:mr-8 mt-4 md:mt-0"
-          />
-          <div className="text-center md:text-left justify-center items-center">
-            <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
-            <p className="text-justify">
-              Ó Deus, nosso Pai,
-              Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
-              Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
-              No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
-              Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-              Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
-              <br />
-              <b>Prayer in English:</b>
-              O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
-              <br />
-              <b>Oración en español:</b>
-              Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
-            </p>
-            <p><b><em>Oração em áudio: Português</em></b></p>
-            <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Audio Prayer: English</em></b></p>
-            <audio controls>
-              <source src={audioEnglish1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Oración en audio: español</em></b></p>
-            <audio controls>
-              <source src={audioEspanol1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-          </div>
-        </div>
+        
         {/*Fim - Oração 3 */}
         
          {/* ========== */}
@@ -249,8 +213,10 @@ export default function Oracoes() {
             Esta oração é uma forma de expressarmos nossa esperança no futuro. Pedimos a Deus que nos dê força para enfrentar os desafios, paz para nossos corações, e a capacidade de ver o bem em cada pessoa.
             É claro que existem muitas outras maneiras de escrever uma oração dominical. A melhor maneira é encontrar uma oração que expresse sua própria fé e esperança.
               <br />
-              <b>Oración en español:</b>
-              Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
+              <b>Prayer in English:</b><br />
+              Prayer of Hope God of hope, In a world full of uncertainty, We seek you. It gives us hope for the future, Strength to face challenges, And peace for our hearts. Help us to see the good in every person, To find beauty in the world, And to live with faith and joy. This prayer is a way of expressing our hope for the future. We ask God to give us strength to face challenges, peace in our hearts, and the ability to see the good in each person. Of course, there are many other ways to write a Sunday prayer. The best way is to find a prayer that expresses your own faith and hope.
+              <br/><b>Oración en español:</b><br/>
+              Oración de Esperanza Dios de esperanza, En un mundo lleno de incertidumbre, Te buscamos. Nos da esperanza para el futuro, fuerza para afrontar los desafíos y paz para nuestros corazones. Ayúdanos a ver el bien en cada persona, a encontrar la belleza en el mundo y a vivir con fe y alegría. Esta oración es una manera de expresar nuestra esperanza para el futuro. Le pedimos a Dios que nos dé fuerza para enfrentar los desafíos, paz en nuestro corazón y la capacidad de ver el bien en cada persona. Por supuesto, hay muchas otras formas de escribir una oración dominical. La mejor manera es encontrar una oración que exprese su propia fe y esperanza.
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
@@ -259,12 +225,12 @@ export default function Oracoes() {
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>
             <audio controls>
-              <source src={audioEnglish1} type="audio/mp3" />
+              <source src={audioEnglish4} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Oración en audio: español</em></b></p>
             <audio controls>
-              <source src={audioEspanol1} type="audio/mp3" />
+              <source src={audioEspanol4} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
           </div>
@@ -272,217 +238,27 @@ export default function Oracoes() {
         {/*Fim - Oração 4 */}
         {/* ================ */}
         {/* Oração 5 */}
-        <div className="container mx-auto p-4 md:p-8 border border-orange400 rounded-md flex flex-col md:flex-row items-center mt-8">
-          <img
-            src={img5}
-            alt="Imagem"
-            className="w-32 h-auto md:w-48 md:h-auto rounded mr-4 md:mr-8 mt-4 md:mt-0"
-          />
-          <div className="text-center md:text-left justify-center items-center">
-            <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
-            <p className="text-justify">
-              Ó Deus, nosso Pai,
-              Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
-              Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
-              No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
-              Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-              Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
-              <br />
-              <b>Prayer in English:</b>
-              O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
-              <br />
-              <b>Oración en español:</b>
-              Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
-            </p>
-            <p><b><em>Oração em áudio: Português</em></b></p>
-            <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Audio Prayer: English</em></b></p>
-            <audio controls>
-              <source src={audioEnglish1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Oración en audio: español</em></b></p>
-            <audio controls>
-              <source src={audioEspanol1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-          </div>
-        </div>
+        
+              
         {/*Fim - Oração 5 */}
         {/* ============== */}
         
         {/* Oração 6 */}
-        <div className="container mx-auto p-4 md:p-8 border border-orange400 rounded-md flex flex-col md:flex-row items-center mt-8">
-          <img
-            src={img6}
-            alt="Imagem"
-            className="w-32 h-auto md:w-48 md:h-auto rounded mr-4 md:mr-8 mt-4 md:mt-0"
-          />
-          <div className="text-center md:text-left justify-center items-center">
-            <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
-            <p className="text-justify">
-              Ó Deus, nosso Pai,
-              Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
-              Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
-              No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
-              Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-              Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
-              <br />
-              <b>Prayer in English:</b>
-              O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
-              <br />
-              <b>Oración en español:</b>
-              Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
-            </p>
-            <p><b><em>Oração em áudio: Português</em></b></p>
-            <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Audio Prayer: English</em></b></p>
-            <audio controls>
-              <source src={audioEnglish1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Oración en audio: español</em></b></p>
-            <audio controls>
-              <source src={audioEspanol1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-          </div>
-        </div>
+        
+              
         {/*Fim - Oração 6 */}
         {/* =============== */}
         
         {/* Oração 7 */}
-        <div className="container mx-auto p-4 md:p-8 border border-orange400 rounded-md flex flex-col md:flex-row items-center mt-8">
-          <img
-            src={img7}
-            alt="Imagem"
-            className="w-32 h-auto md:w-48 md:h-auto rounded mr-4 md:mr-8 mt-4 md:mt-0"
-          />
-          <div className="text-center md:text-left justify-center items-center">
-            <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
-            <p className="text-justify">
-              Ó Deus, nosso Pai,
-              Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
-              Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
-              No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
-              Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-              Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
-              <br />
-              <b>Prayer in English:</b>
-              O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
-              <br />
-              <b>Oración en español:</b>
-              Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
-            </p>
-            <p><b><em>Oração em áudio: Português</em></b></p>
-            <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Audio Prayer: English</em></b></p>
-            <audio controls>
-              <source src={audioEnglish1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Oración en audio: español</em></b></p>
-            <audio controls>
-              <source src={audioEspanol1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-          </div>
-        </div>
+
         {/*Fim - Oração 7 */}
         {/* ================= */}
         
         {/* Oração 8 */}
-        <div className="container mx-auto p-4 md:p-8 border border-orange400 rounded-md flex flex-col md:flex-row items-center mt-8">
-          <img
-            src={img8}
-            alt="Imagem"
-            className="w-32 h-auto md:w-48 md:h-auto rounded mr-4 md:mr-8 mt-4 md:mt-0"
-          />
-          <div className="text-center md:text-left justify-center items-center">
-            <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
-            <p className="text-justify">
-              Ó Deus, nosso Pai,
-              Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
-              Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
-              No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
-              Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-              Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
-              <br />
-              <b>Prayer in English:</b>
-              O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
-              <br />
-              <b>Oración en español:</b>
-              Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
-            </p>
-            <p><b><em>Oração em áudio: Português</em></b></p>
-            <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Audio Prayer: English</em></b></p>
-            <audio controls>
-              <source src={audioEnglish1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Oración en audio: español</em></b></p>
-            <audio controls>
-              <source src={audioEspanol1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-          </div>
-        </div>
         {/*Fim - Oração 8 */}
         {/* =============== */}
         
         {/* Oração 9 */}
-        <div className="container mx-auto p-4 md:p-8 border border-orange400 rounded-md flex flex-col md:flex-row items-center mt-8">
-          <img
-            src={img9}
-            alt="Imagem"
-            className="w-32 h-auto md:w-48 md:h-auto rounded mr-4 md:mr-8 mt-4 md:mt-0"
-          />
-          <div className="text-center md:text-left justify-center items-center">
-            <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
-            <p className="text-justify">
-              Ó Deus, nosso Pai,
-              Nós Te agradecemos por refrescar nossas almas após o calor da prova, expiação e sofrimento.
-              Tu és o Deus da compaixão e do amor. Tu nos conheces e nos entendes. Tu sabes o que passamos e o que sentimos.
-              No calor da prova, Tu nos deste forças para perseverar. No calor da expiação, Tu nos deste paz e consolo. No calor do sofrimento, Tu nos deste esperança e renovação.
-              Graças a Ti, podemos descansar em Tuas promessas de amor e fidelidade. Podemos confiar em Tua justiça e misericórdia. Podemos saber que Tu estás conosco em todos os momentos, nos bons e nos maus.
-              Ó Deus, refresca nossas almas com Tua presença. Dai-nos a Tua paz, a Tua alegria e a Tua esperança. Ajuda-nos a viver em Tua presença, todos os dias de nossas vidas.
-              <br />
-              <b>Prayer in English:</b>
-              O God, our Father, We thank You for refreshing our souls after the heat of trial, atonement and suffering. You are the God of compassion and love. You know us and understand us. You know what we go through and what we feel. In the heat of the test, You gave us strength to persevere. In the heat of atonement, You gave us peace and comfort. In the heat of suffering, You gave us hope and renewal. Thanks to You, we can rest in Your promises of love and faithfulness. We can trust in Your justice and mercy. We can know that You are with us at all times, in the good and the bad. O God, refresh our souls with Your presence. Give us Your peace, Your joy and Your hope. Help us to live in Your presence, every day of our lives.
-              <br />
-              <b>Oración en español:</b>
-              Oh Dios, Padre nuestro, Te damos gracias por refrescar nuestras almas después del calor de la prueba, la expiación y el sufrimiento. Eres el Dios de la compasión y el amor. Tú nos conoces y nos entiendes. Sabes lo que pasamos y lo que sentimos. En el fragor de la prueba, Tú nos diste fuerza para perseverar. En el calor de la expiación, nos diste paz y consuelo. En el calor del sufrimiento, nos diste esperanza y renovación. Gracias a Ti podemos descansar en Tus promesas de amor y fidelidad. Podemos confiar en Tu justicia y misericordia. Podemos saber que Tú estás con nosotros en todo momento, en las buenas y en las malas. Oh Dios, refresca nuestras almas con tu presencia. Danos tu paz, tu alegría y tu esperanza. Ayúdanos a vivir en Tu presencia, todos los días de nuestras vidas.
-            </p>
-            <p><b><em>Oração em áudio: Português</em></b></p>
-            <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Audio Prayer: English</em></b></p>
-            <audio controls>
-              <source src={audioEnglish1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-            <p><b><em>Oración en audio: español</em></b></p>
-            <audio controls>
-              <source src={audioEspanol1} type="audio/mp3" />
-              Seu navegador não suporta o elemento de áudio.
-            </audio>
-          </div>
-        </div>
         {/*Fim - Oração 9 */}
         {/* ================= */}
         

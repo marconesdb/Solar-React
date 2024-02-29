@@ -41,7 +41,7 @@ function Coragem() {
             <p className="text-lg text-justify ml-4 mr-4">
             A história da humanidade está repleta de exemplos de coragem da fé. Alguns exemplos notáveis são: Jesus Cristo, que enfrentou a perseguição e a morte para espalhar a palavra de Deus. Martin Luther King Jr., que lutou pela igualdade racial nos Estados Unidos, mesmo diante da violência e do preconceito. Madre Teresa de Calcutá, que dedicou sua vida a ajudar os pobres e necessitados. Na Doutrina Espírita, a coragem da fé não é apenas um ato de resistência diante das adversidades, mas uma postura ativa na busca por compreensão, amor e evolução. A fé é um farol que ilumina os caminhos espirituais, fornecendo coragem para enfrentar os desafios com sabedoria e discernimento.A coragem da fé é uma virtude que nos permite viver de forma plena e harmoniosa. Ela é essencial para o nosso progresso espiritual e para a construção de um mundo melhor.
             </p>
-            <p className="text-sm text-right mt-4 ml-4 mr-4">Data de Publicação: <strong>[28/02/2024]</strong><br />Autor: <strong>Marcone Silva de Brito</strong></p>
+            <p className="text-sm text-right mt-4 ml-4 mr-4 mb-4">Data de Publicação: <strong>[28/02/2024]</strong><br />Autor: <strong>Marcone Silva de Brito</strong></p>
 
             {/* Artigo em Inglês */}
             <p className="text-lg mb-4 text-justify font-bold ml-4 mr-4">The courage of faith according to the spiritist doctrine</p>
@@ -65,7 +65,7 @@ function Coragem() {
             <p className="text-lg text-justify ml-4 mr-4">
             The history of humanity is full of examples of the courage of faith. Some notable examples are: Jesus Christ, who faced persecution and death to spread the word of God. Martin Luther King Jr., who fought for racial equality in the United States, even in the face of violence and prejudice. Mother Teresa of Calcutta, who dedicated her life to helping the poor and needy.In the Spiritist Doctrine, the courage of faith is not just an act of resistance in the face of adversity, but an active stance in the search for understanding, love and evolution. Faith is a beacon that illuminates spiritual paths, providing courage to face challenges with wisdom and discernment. The courage of faith is a virtue that allows us to live fully and harmoniously. It is essential for our spiritual progress and for building a better world.
             </p>
-            <p className="text-sm text-right mt-4 ml-4 mr-4">Publication date: <strong>[28/02/2024]</strong><br />Autor: <strong>Marcone Silva de Brito</strong></p>
+            <p className="text-sm text-right mt-4 ml-4 mr-4 mb-4">Publication date: <strong>[28/02/2024]</strong><br />Autor: <strong>Marcone Silva de Brito</strong></p>
             {/*  Fim - Artigo em Inglês*/}
 
 

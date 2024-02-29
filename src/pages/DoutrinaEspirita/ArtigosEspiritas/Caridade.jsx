@@ -46,7 +46,7 @@ function Caridade() {
             <p className="text-lg text-justify ml-4 mr-4">
               
             </p>
-            <p className="text-sm text-right mt-4 ml-4 mr-4">Data de Publicação: <strong>[28/02/2024]</strong><br />Autor: <strong>Marcone Silva de Brito</strong></p>
+            <p className="text-sm text-right mt-4 ml-4 mr-4 mb-4">Data de Publicação: <strong>[28/02/2024]</strong><br />Autor: <strong>Marcone Silva de Brito</strong></p>
 
             {/* Artigo em Inglês */}
             <p className="text-lg mb-4 text-justify font-bold ml-4 mr-4">Charity According to Jesus: Benevolence, Indulgence and Forgiveness of Offenses</p>
@@ -70,7 +70,7 @@ function Caridade() {
             <p className="text-lg text-justify ml-4 mr-4">
              
             </p>
-            <p className="text-sm text-right mt-4 ml-4 mr-4">Publication date: <strong>[01/01/2024]</strong><br />Author: <strong>Marcone Silva de Brito</strong></p>
+            <p className="text-sm text-right mt-4 ml-4 mr-4 mb-4">Publication date: <strong>[01/01/2024]</strong><br />Author: <strong>Marcone Silva de Brito</strong></p>
             {/*  Fim - Artigo em Inglês*/}
 
 

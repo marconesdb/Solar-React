@@ -9,14 +9,11 @@ export default function NossosMomentos() {
   const [selectedVideo, setSelectedVideo] = useState('');
 
   const videos = [
-    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: '', thumbnail: thumbnailImage1 },
-    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: '', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
-    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: '', thumbnail: thumbnailImage1 },
-    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: '', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
-    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: '', thumbnail: thumbnailImage1 },
-    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: '', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
-    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: '', thumbnail: thumbnailImage1 },
-    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: '', thumbnail: 'https://i.ytimg.com/vi/EIt8_l29nDg/maxresdefault.jpg' },
+    { id: 1, url: 'https://youtube.com/shorts/NTFlcvPjEJM', title: 'Aniversário ENREJE 2024', thumbnail: thumbnailImage1 },
+    { id: 2, url: 'https://youtube.com/shorts/EIt8_l29nDg', title: 'Jantar ENREJE 2024', thumbnail: thumbnailImage1 },
+    { id: 3, url: 'https://www.youtube.com/shorts/wqPV-OorCD8', title: 'Jantar ENREJE 2024', thumbnail: thumbnailImage1 },
+    { id: 4, url: 'https://www.youtube.com/shorts/Kq1ypvViKzs', title: 'Abertura do ENREJE 2024', thumbnail: thumbnailImage1 },
+    
   ];
 
   const openModal = (videoUrl) => {
@@ -33,7 +30,7 @@ export default function NossosMomentos() {
     <div>
       <Navbar />
       <main className="container mx-auto py-8 px-4">
-        <h1 className="text-xl font-bold text-center mb-8 mt-28">Nossos Momentos</h1>
+        <h1 className="text-xl font-bold text-center mb-8 mt-28">Nossos Momentos - Galeria de Vídeos</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {videos.map((video) => (
             <div key={video.id} className="relative">

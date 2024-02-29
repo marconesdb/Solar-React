@@ -6,13 +6,13 @@ import homenageado2 from '../quemsomos/img-homenageados/Sr-Joaquin.jpeg';
 
 const homenageados = [
   { 
-    nome: 'Nome do Homenageado 1', 
-    descricao: 'Descrição do Homenageado 1',
+    nome: 'Alder Cunha', 
+    descricao: 'Falecido Trabalhador do Centro Espírita Solar de Jesus',
     imagem: homenageado1
   },
   { 
-    nome: 'Nome do Homenageado 2', 
-    descricao: 'Descrição do Homenageado 2',
+    nome: 'Joaquim Araujo', 
+    descricao: 'Falecido Trabalhador do Centro Espírita Solar de Jesus',
     imagem: homenageado2
   },
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../../Navbar';
 import Footer from '../../../Footer';
-
+import img1 from '../img-artigosespiritas/IMG-01.png'
 function Caridade() {
   return (
     <div>
@@ -10,7 +10,7 @@ function Caridade() {
         <h1 className="text-4xl font-bold text-center mb-8 mt-20">A Caridade Segundo Jesus: Benevolência, Indulgência e Perdão das Ofensas</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="md:order-last">
-            <img src="https://via.placeholder.com/300" alt="Imagem do Artigo" className="w-full rounded-lg" />
+            <img src={img1} alt="Imagem do Artigo" className="w-full rounded-lg" />
           </div>
           
           <div className='bg-black100 text-white rounded-lg '>

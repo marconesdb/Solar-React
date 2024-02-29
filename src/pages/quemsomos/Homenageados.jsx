@@ -15,6 +15,8 @@ const homenageados = [
     descricao: 'Descrição do Homenageado 2',
     imagem: homenageado2
   },
+
+  
   // Adicione mais homenageados conforme necessário
 ];
   // Adicione mais homenageados conforme necessário
@@ -24,7 +26,7 @@ export default function Homenageados() {
     <div>
       <Navbar/>
       <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">Homenageados</h1>
+      <h1 className="text-3xl font-bold mt-20 text-center mb-4">Homenageados</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {homenageados.map((homenageado, index) => (
           <div key={index} className="bg-gray-100 p-4 rounded-lg">

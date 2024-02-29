@@ -20,7 +20,7 @@ import imagem13 from '../../public/Galeria/Costura/WhatsApp Image 2023-12-27 at 
 
 
 import imagem14 from '../../public/Galeria/Evangelização Infantil/DSCN-1.jpg';
-// import imagem15 from '../../public/Galeria/Evangelização Infantil/DSCN-2.jpg';
+import imagem15 from '../../public/Galeria/Evangelização Infantil/DSCN-2.jpg';
 import imagem16 from '../../public/Galeria/Evangelização Infantil/DSCN-3.jpg';
 import imagem17 from '../../public/Galeria/Evangelização Infantil/DSCN-5.jpg';
 import imagem18 from '../../public/Galeria/Evangelização Infantil/DSCN-6.jpg';
@@ -145,11 +145,11 @@ const images1 = [
 
 
     
-    // {
-    //     original: imagem15,
-    //     thumbnail: imagem15,
-    //     description: 'Evangelização'
-    // },
+    {
+        original: imagem15,
+        thumbnail: imagem15,
+        description: 'Evangelização'
+    },
     
 
     {

@@ -29,6 +29,11 @@ import imagem20 from '../../public/Galeria/Evangelização Infantil/DSCN9271.jpg
 import imagem21 from '../../public/Galeria/Evangelização Infantil/DSCN9293.jpg';
 import imagem22 from '../../public/Galeria/Evangelização Infantil/DSCN9306.jpg';
 import imagem23 from '../../public/Galeria/Evangelização Infantil/DSCN9398.jpg';
+import imagem24 from '../../public/Galeria/Evangelização Infantil/DSCN9400.jpg';
+import imagem25 from '../../public/Galeria/Evangelização Infantil/DSCN9403.jpg';
+import imagem26 from '../../public/Galeria/Evangelização Infantil/DSCN9412.jpg';
+import imagem27 from '../../public/Galeria/Evangelização Infantil/DSCN9413.jpg';
+import imagem28 from '../../public/Galeria/Evangelização Infantil/IMG-1.jpeg';
 
 const images1 = [
     {
@@ -171,6 +176,38 @@ const images1 = [
     {
         original: imagem23,
         thumbnail: imagem23,
+        description: 'Evangelização Infantil'
+    },
+
+
+    {
+        original: imagem24,
+        thumbnail: imagem24,
+        description: 'Evangelização Infantil'
+    },
+
+
+    {
+        original: imagem25,
+        thumbnail: imagem25,
+        description: 'Evangelização Infantil'
+    },
+
+    {
+        original: imagem26,
+        thumbnail: imagem26,
+        description: 'Evangelização Infantil'
+    },
+
+    {
+        original: imagem27,
+        thumbnail: imagem27,
+        description: 'Evangelização Infantil'
+    },
+
+    {
+        original: imagem28,
+        thumbnail: imagem28,
         description: 'Evangelização Infantil'
     },
 ];

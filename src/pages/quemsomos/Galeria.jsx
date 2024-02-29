@@ -28,6 +28,8 @@ import imagem19 from '../../public/Galeria/Evangelização Infantil/DSCN-7.jpg';
 import imagem20 from '../../public/Galeria/Evangelização Infantil/DSCN9271.jpg';
 import imagem21 from '../../public/Galeria/Evangelização Infantil/DSCN9293.jpg';
 import imagem22 from '../../public/Galeria/Evangelização Infantil/DSCN9306.jpg';
+import imagem23 from '../../public/Galeria/Evangelização Infantil/DSCN9398.jpg';
+
 const images1 = [
     {
         original: imagem1,
@@ -163,6 +165,12 @@ const images1 = [
     {
         original: imagem22,
         thumbnail: imagem22,
+        description: 'Evangelização Infantil'
+    },
+
+    {
+        original: imagem23,
+        thumbnail: imagem23,
         description: 'Evangelização Infantil'
     },
 ];

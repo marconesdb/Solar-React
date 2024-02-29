@@ -34,6 +34,28 @@ import imagem25 from '../../public/Galeria/Evangelização Infantil/DSCN9403.jpg
 import imagem26 from '../../public/Galeria/Evangelização Infantil/DSCN9412.jpg';
 import imagem27 from '../../public/Galeria/Evangelização Infantil/DSCN9413.jpg';
 import imagem28 from '../../public/Galeria/Evangelização Infantil/IMG-1.jpeg';
+import imagem29 from '../../public/Galeria/Evangelização Infantil/IMG-2.jpeg';
+import imagem30 from '../../public/Galeria/Evangelização Infantil/IMG-3.jpeg';
+import imagem31 from '../../public/Galeria/Social/1684416665155.jpg';
+import imagem32 from '../../public/Galeria/Social/DSCN9252.jpg';
+import imagem33 from '../../public/Galeria/Social/DSCN9256.jpg';
+import imagem34 from '../../public/Galeria/Social/DSCN9265..jpg';
+
+import imagem35 from '../../public/Galeria/Social/DSCN9277.jpg';
+import imagem36 from '../../public/Galeria/Social/DSCN9285.jpg';
+
+import imagem37 from '../../public/Galeria/Social/DSCN9321.jpg';
+import imagem38 from '../../public/Galeria/Social/DSCN9335.jpg';
+import imagem39 from '../../public/Galeria/Social/DSCN9337.jpg';
+
+import imagem40 from '../../public/Galeria/Social/DSCN9348.jpg';
+
+import imagem41 from '../../public/Galeria/Social/DSCN9378.jpg';
+
+import imagem42 from '../../public/Galeria/Social/DSCN9408.jpg';
+
+import imagem43 from '../../public/Galeria/Social/IMG_20230518_085933_860.jpg';
+
 
 const images1 = [
     {
@@ -118,7 +140,7 @@ const images1 = [
     {
         original: imagem14,
         thumbnail: imagem14,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
 
@@ -126,89 +148,183 @@ const images1 = [
     {
         original: imagem15,
         thumbnail: imagem15,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
     
 
     {
         original: imagem16,
         thumbnail: imagem16,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
     {
         original: imagem17,
         thumbnail: imagem17,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
 
     {
         original: imagem18,
         thumbnail: imagem18,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
     {
         original: imagem19,
         thumbnail: imagem19,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
     {
         original: imagem20,
         thumbnail: imagem20,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
     {
         original: imagem21,
         thumbnail: imagem21,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
     {
         original: imagem22,
         thumbnail: imagem22,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
     {
         original: imagem23,
         thumbnail: imagem23,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
 
     {
         original: imagem24,
         thumbnail: imagem24,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
 
     {
         original: imagem25,
         thumbnail: imagem25,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
     {
         original: imagem26,
         thumbnail: imagem26,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
     {
         original: imagem27,
         thumbnail: imagem27,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização'
     },
 
     {
         original: imagem28,
         thumbnail: imagem28,
-        description: 'Evangelização Infantil'
+        description: 'Evangelização '
+    },
+
+    {
+        original: imagem29,
+        thumbnail: imagem29,
+        description: 'Evangelização '
+    },
+
+    {
+        original: imagem30,
+        thumbnail: imagem30,
+        description: 'Evangelização '
+    },
+
+    {
+        original: imagem31,
+        thumbnail: imagem31,
+        description: 'Evangelização'
+    },
+
+    {
+        original: imagem32,
+        thumbnail: imagem32,
+        description: 'Social'
+    },
+    {
+        original: imagem33,
+        thumbnail: imagem33,
+        description: 'Social'
+    },
+
+    {
+        original: imagem34,
+        thumbnail: imagem34,
+        description: 'Social'
+    },
+
+    
+    {
+        original: imagem35,
+        thumbnail: imagem35,
+        description: 'Social'
+    },
+
+    {
+        original: imagem36,
+        thumbnail: imagem36,
+        description: 'Social'
+    },
+
+    {
+        original: imagem37,
+        thumbnail: imagem37,
+        description: 'Social'
+    },
+
+    {
+        original: imagem38,
+        thumbnail: imagem38,
+        description: 'Social'
+    },
+
+
+    {
+        original: imagem39,
+        thumbnail: imagem39,
+        description: 'Social'
+    },
+
+    
+    {
+        original: imagem40,
+        thumbnail: imagem40,
+        description: 'Social'
+    },
+
+
+    {
+        original: imagem41,
+        thumbnail: imagem41,
+        description: 'Social'
+    },
+
+    {
+        original: imagem42,
+        thumbnail: imagem42,
+        description: 'Social'
+    },
+
+
+    {
+        original: imagem43,
+        thumbnail: imagem43,
+        description: 'Social'
     },
 ];
 

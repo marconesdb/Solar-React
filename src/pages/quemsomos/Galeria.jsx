@@ -19,20 +19,22 @@ import imagem13 from '../../public/Galeria/Costura/WhatsApp Image 2023-12-27 at 
 
 
 
-import imagem14 from '../../public/Galeria/Evangelização Infantil/DSCN-1.jpg';
-import imagem15 from '../../public/Galeria/Evangelização Infantil/DSCN-2.jpg';
-import imagem16 from '../../public/Galeria/Evangelização Infantil/DSCN-3.jpg';
-import imagem17 from '../../public/Galeria/Evangelização Infantil/DSCN-5.jpg';
-import imagem18 from '../../public/Galeria/Evangelização Infantil/DSCN-6.jpg';
-import imagem19 from '../../public/Galeria/Evangelização Infantil/DSCN-7.jpg';
-import imagem20 from '../../public/Galeria/Evangelização Infantil/DSCN9271.jpg';
-import imagem21 from '../../public/Galeria/Evangelização Infantil/DSCN9293.jpg';
-import imagem22 from '../../public/Galeria/Evangelização Infantil/DSCN9306.jpg';
-import imagem23 from '../../public/Galeria/Evangelização Infantil/DSCN9398.jpg';
-import imagem24 from '../../public/Galeria/Evangelização Infantil/DSCN9400.jpg';
-import imagem25 from '../../public/Galeria/Evangelização Infantil/DSCN9403.jpg';
-import imagem26 from '../../public/Galeria/Evangelização Infantil/DSCN9412.jpg';
-import imagem27 from '../../public/Galeria/Evangelização Infantil/DSCN9413.jpg';
+// import imagem14 from '../../public/Galeria/Evangelização Infantil/DSCN-1.jpg';
+// import imagem15 from '../../public/Galeria/Evangelização Infantil/DSCN-2.jpg';
+// import imagem16 from '../../public/Galeria/Evangelização Infantil/DSCN-3.jpg';
+// import imagem17 from '../../public/Galeria/Evangelização Infantil/DSCN-5.jpg';
+// import imagem18 from '../../public/Galeria/Evangelização Infantil/DSCN-6.jpg';
+// import imagem19 from '../../public/Galeria/Evangelização Infantil/DSCN-7.jpg';
+// import imagem20 from '../../public/Galeria/Evangelização Infantil/DSCN9271.jpg';
+// import imagem21 from '../../public/Galeria/Evangelização Infantil/DSCN9293.jpg';
+// import imagem22 from '../../public/Galeria/Evangelização Infantil/DSCN9306.jpg';
+// import imagem23 from '../../public/Galeria/Evangelização Infantil/DSCN9398.jpg';
+// import imagem24 from '../../public/Galeria/Evangelização Infantil/DSCN9400.jpg';
+// import imagem25 from '../../public/Galeria/Evangelização Infantil/DSCN9403.jpg';
+// import imagem26 from '../../public/Galeria/Evangelização Infantil/DSCN9412.jpg';
+// import imagem27 from '../../public/Galeria/Evangelização Infantil/DSCN9413.jpg';
+
+
 import imagem28 from '../../public/Galeria/Evangelização Infantil/IMG-1.jpeg';
 import imagem29 from '../../public/Galeria/Evangelização Infantil/IMG-2.jpeg';
 import imagem30 from '../../public/Galeria/Evangelização Infantil/IMG-3.jpeg';
@@ -137,95 +139,95 @@ const images1 = [
 
 
 
-    {
-        original: imagem14,
-        thumbnail: imagem14,
-        description: 'Evangelização'
-    },
+    // {
+    //     original: imagem14,
+    //     thumbnail: imagem14,
+    //     description: 'Evangelização'
+    // },
 
 
     
-    {
-        original: imagem15,
-        thumbnail: imagem15,
-        description: 'Evangelização'
-    },
+    // {
+    //     original: imagem15,
+    //     thumbnail: imagem15,
+    //     description: 'Evangelização'
+    // },
     
 
-    {
-        original: imagem16,
-        thumbnail: imagem16,
-        description: 'Evangelização'
-    },
+    // {
+    //     original: imagem16,
+    //     thumbnail: imagem16,
+    //     description: 'Evangelização'
+    // },
 
-    {
-        original: imagem17,
-        thumbnail: imagem17,
-        description: 'Evangelização'
-    },
-
-
-    {
-        original: imagem18,
-        thumbnail: imagem18,
-        description: 'Evangelização'
-    },
-
-    {
-        original: imagem19,
-        thumbnail: imagem19,
-        description: 'Evangelização'
-    },
-
-    {
-        original: imagem20,
-        thumbnail: imagem20,
-        description: 'Evangelização'
-    },
-
-    {
-        original: imagem21,
-        thumbnail: imagem21,
-        description: 'Evangelização'
-    },
-
-    {
-        original: imagem22,
-        thumbnail: imagem22,
-        description: 'Evangelização'
-    },
-
-    {
-        original: imagem23,
-        thumbnail: imagem23,
-        description: 'Evangelização'
-    },
+    // {
+    //     original: imagem17,
+    //     thumbnail: imagem17,
+    //     description: 'Evangelização'
+    // },
 
 
-    {
-        original: imagem24,
-        thumbnail: imagem24,
-        description: 'Evangelização'
-    },
+    // {
+    //     original: imagem18,
+    //     thumbnail: imagem18,
+    //     description: 'Evangelização'
+    // },
+
+    // {
+    //     original: imagem19,
+    //     thumbnail: imagem19,
+    //     description: 'Evangelização'
+    // },
+
+    // {
+    //     original: imagem20,
+    //     thumbnail: imagem20,
+    //     description: 'Evangelização'
+    // },
+
+    // {
+    //     original: imagem21,
+    //     thumbnail: imagem21,
+    //     description: 'Evangelização'
+    // },
+
+    // {
+    //     original: imagem22,
+    //     thumbnail: imagem22,
+    //     description: 'Evangelização'
+    // },
+
+    // {
+    //     original: imagem23,
+    //     thumbnail: imagem23,
+    //     description: 'Evangelização'
+    // },
 
 
-    {
-        original: imagem25,
-        thumbnail: imagem25,
-        description: 'Evangelização'
-    },
+    // {
+    //     original: imagem24,
+    //     thumbnail: imagem24,
+    //     description: 'Evangelização'
+    // },
 
-    {
-        original: imagem26,
-        thumbnail: imagem26,
-        description: 'Evangelização'
-    },
 
-    {
-        original: imagem27,
-        thumbnail: imagem27,
-        description: 'Evangelização'
-    },
+    // {
+    //     original: imagem25,
+    //     thumbnail: imagem25,
+    //     description: 'Evangelização'
+    // },
+
+    // {
+    //     original: imagem26,
+    //     thumbnail: imagem26,
+    //     description: 'Evangelização'
+    // },
+
+    // {
+    //     original: imagem27,
+    //     thumbnail: imagem27,
+    //     description: 'Evangelização'
+    // },
 
     {
         original: imagem28,

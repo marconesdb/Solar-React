@@ -7,7 +7,7 @@ import img4 from '../img-cartaz-palestras/Cartaz-1.png';
 import img5 from '../img-cartaz-palestras/Cartaz-2.png';
 import img6 from '../img-cartaz-palestras/Cartaz-3.png';
 import img7 from '../img-cartaz-palestras/Cartaz-04.png';
-import img8 from '../img-cartaz-palestras/enreje.png';
+import img8 from '../img-cartaz-palestras/Cartaz-05.png';
 import img9 from '../img-cartaz-palestras/Cartaz-06.png';
 
 const Modal = ({ isOpen, onClose, imgSrc, imgAlt }) => {

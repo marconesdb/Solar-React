@@ -172,6 +172,19 @@ const Navbar = () => {
                       </Link>
                     )}
                   </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <Link
+                        to="/downloadpalestras"
+                        className={`${
+                          active ? 'bg-gray-100 text-gray-900' : 'text-gray-700'
+                        } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                      >
+                        Downloads
+                      </Link>
+                    )}
+                  </Menu.Item>
                 </div>
               </Menu.Items>
             </Menu>
@@ -268,6 +281,13 @@ const Navbar = () => {
                   className="text-black hover:bg-orange400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                  Orações
+                </Link>
+
+                <Link
+                  to="/downloadpalestras"
+                  className="text-black hover:bg-orange400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                 Downloads
                 </Link>
               </div>
             </div>

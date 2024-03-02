@@ -32,6 +32,8 @@ import ceueinferno1 from '../DoutrinaEspirita/ObrasBasicas/O Céu e o Inferno/Li
 import ceueinferno2 from '../DoutrinaEspirita/ObrasBasicas/O Céu e o Inferno/Heaven and Hell - English.pdf'
 import ceueinferno3 from '../DoutrinaEspirita/ObrasBasicas/O Céu e o Inferno/Libro El Cielo y el Infierno - Español.pdf'
 
+
+
 function BasicWorks() {
   return (
     <div>
@@ -306,31 +308,6 @@ function BasicWorks() {
 {/* Fim - O Céu e o Inferno */}
 
 {/* Download Palestras */}
-
-<h1 className='text-center mt-16 text text-3xl'>Download de Palestras</h1>
-<div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center container mx-auto mt-8 rounded-lg md:py-8 md:px-12 lg:px-24 xl:px-32">
-      <div className=" border-orange300 border-2 p-4">
-        <p><b>Palestra - Suícidio, Fuga Desastrosa</b></p>
-        <p><i>Download do Arquivo</i></p>
-        <p><i>Descarga de archivos</i></p>
-        <p>Click on the link below to download the file:</p>
-        <a href="../documents/Download de Palestras/Suícidio, Fuga Desastrosa.pptx" className='bg-blue-600 p-1 rounded text-white' download="Suícidio, Fuga Desastrosa"><button>Baixar Arquivo</button></a>
-      </div>
-      <div className="border-2 border-orange300 p-4">
-      <p><b>Palestra - Suícidio, Fuga Desastrosa</b></p>
-        <p><i>Download do Arquivo</i></p>
-        <p><i>Descarga de archivos</i></p>
-        <p>Click on the link below to download the file:</p>
-        <a href="../documents/Download de Palestras/Suícidio, Fuga Desastrosa.pptx" className='bg-blue-600 p-1 rounded text-white' download="Suícidio, Fuga Desastrosa"><button>Baixar Arquivo</button></a>
-      </div>
-      <div className="border-2 border-orange300 p-4">
-      <p><b>Palestra - Suícidio, Fuga Desastrosa</b></p>
-        <p><i>Download do Arquivo</i></p>
-        <p><i>Descarga de archivos</i></p>
-        <p>Click on the link below to download the file:</p>
-        <a href="../documents/Download de Palestras/Suícidio, Fuga Desastrosa.pptx" className='bg-blue-600 p-1 rounded text-white' download="Suícidio, Fuga Desastrosa"><button>Baixar Arquivo</button></a>
-      </div>
-    </div>
 {/* Fim - Download Palestras */}
 
 

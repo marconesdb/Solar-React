@@ -16,7 +16,7 @@ import NossaHistoria from './pages/quemsomos/NossaHistoria'
 import Caridade from './pages/DoutrinaEspirita/ArtigosEspiritas/Caridade'
 import Coragem from './pages/DoutrinaEspirita/ArtigosEspiritas/Coragem'
 import MensagemEnviada from './pages/contato/MensagemEnviada'
-
+import DownloadPalestras from './pages/DoutrinaEspirita/DownloadPalestras'
 
 
 
@@ -36,6 +36,7 @@ function App() {
      <Route path='/nossahistoria' element={<NossaHistoria/>}/>
      <Route path='/doutrinaespirita' element={<DoutrinaEspirita/>}/>
      <Route path='/obrasbasicas' element={<ObrasBasicas/>}/>
+     <Route path='/downloadpalestras' element={<DownloadPalestras/>}/>
      <Route path='/artigosespiritas' element={<ArtigosEspiritas/>}/>
      <Route path='/caridade' element={<Caridade/>}/>
      <Route path='/coragem' element={<Coragem/>}/>

@@ -1,44 +1,109 @@
-import React from 'react'
-import  Navbar from '../../Navbar'
-import  Footer from '../../Footer'
-import img1 from '../contato/img-contato/img1 (2).png'
+import React, { useState } from 'react';
+import Navbar from '../../Navbar';
+import Footer from '../../Footer';
+import img1 from '../contato/img-contato/img1 (2).png';
+import emailsjs from '@emailjs/browser'
 export default function Contato() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [message, setMessage] = useState('');
+  
+  function sendEmail(e){
+    e.preventDefault();
+    if(name === '' || email === '' || message === '') {
+      alert("Preencha todos os campos");
+      return;
+    }
+
+    const templateParams ={
+      from_name: name,
+      message: message,
+      email:email,
+      phone:phone
+    }
+    emailsjs.send("service_533rczb", "template_6pzcvo5",templateParams, "oQWiNeyUFxhBYorRd" )
+    .then((response)=>{
+      console.log("EMAIL ENVIADO", response.status, response.text)
+      setName('')
+      setEmail('')
+      setMessage('')
+      setPhone('')
+
+    }, (err) => {
+      console.log("ERRO: "), err
+    })    
+ 
+  
+  }
+
+
+
+
   return (
     <div>
-      <Navbar/>
-      <div>
       <Navbar />
       <div className="container mx-auto py-8 px-4">
         <h1 className="text-3xl font-bold text-center mb-8 mt-28">Entre em Contato Conosco</h1>
+        
         {/* Formulário de Contato */}
-        <div className="max-w-lg mx-auto">
-          <form className="space-y-4">
-            <div>
+        <div className="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
+        <form className="form" onSubmit={sendEmail}>
+            <div className="mb-4">
               <label htmlFor="name" className="block text-gray-700">Nome:</label>
-              <input type="text" id="name" name="name" className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500" />
+              <input 
+                id="name"
+                className="input mt-1 w-full border-gray-300 rounded-md"
+                type="text"
+                placeholder="Digite seu nome"
+                onChange={(e) => setName(e.target.value)}
+                value={name}
+              />
             </div>
-            <div>
+            
+            <div className="mb-4">
+              <label htmlFor="email" className="block text-gray-700">Email:</label>
+              <input 
+                id="email"
+                className="input mt-1 w-full border-gray-300 rounded-md"
+                type="text"
+                placeholder="Digite seu email"
+                onChange={(e) => setEmail(e.target.value)}
+                value={email}
+              />
+            </div>
+
+            <div className="mb-4">
               <label htmlFor="phone" className="block text-gray-700">Telefone:</label>
-              <input type="tel" id="phone" name="phone" className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500" />
+              <input 
+                id="phone"
+                className="input mt-1 w-full border-gray-300 rounded-md"
+                type="text"
+                placeholder="Digite seu telefone"
+                onChange={(e) => setPhone(e.target.value)}
+                value={phone}
+              />
             </div>
-            <div>
-              <label htmlFor="email" className="block text-gray-700">E-mail:</label>
-              <input type="email" id="email" name="email" className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500" />
-            </div>
-            <div>
+
+            <div className="mb-4">
               <label htmlFor="message" className="block text-gray-700">Mensagem:</label>
-              <textarea id="message" name="message" rows="4" className="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"></textarea>
+              <textarea 
+                id="message"
+                className="textarea mt-1 w-full border-gray-300 rounded-md"
+                placeholder="Digite sua mensagem..."
+                onChange={(e) => setMessage(e.target.value)}
+                value={message}
+              />
             </div>
-            <div>
-              <button type="submit" className="bg-blue-500 text-white font-semibold px-6 py-2 rounded-md hover:bg-blue-600">Enviar Mensagem</button>
-            </div>
+
+            <button className="button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full" type="submit">Enviar</button>
           </form>
         </div>
-        {/* Imagem */}
-        <section className="mt-8   flex justify-center items-center">
-       <img src={img1} alt="Imagem"    className="w-96 h-96 rounded-lg" />
-        </section>
 
+        {/* Imagem */}
+        <section className="mt-8 flex justify-center items-center">
+          <img src={img1} alt="Imagem" className="w-96 h-96 rounded-lg" />
+        </section>
 
         {/* Mapa incorporado */}
         <h1 className="text-3xl font-bold text-center mb-8 mt-28">Nossa Localização</h1>
@@ -47,9 +112,7 @@ export default function Contato() {
         </div>
       </div>
       
+      <Footer />
     </div>
-      
-      <Footer/>
-    </div>
-  )
+  );
 }

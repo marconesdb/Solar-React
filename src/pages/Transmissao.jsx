@@ -1,9 +1,12 @@
 import Navbar from '../Navbar';
 import Footer from '../Footer';
-
+import { Helmet } from 'react-helmet';
 export default function Transmissao() {
   return (
     <div className="flex flex-col min-h-screen">
+      <Helmet>
+        <link rel="icon" href="/Favicons/favicon-16x16.png" />
+      </Helmet>
       <Navbar />
       <div className="flex-grow bg-gray-100 flex justify-center items-center mt-24">
         <div className="max-w-lg w-full bg-white p-8 rounded-lg shadow-lg">

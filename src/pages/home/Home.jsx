@@ -5,6 +5,9 @@ import image1 from './img-carousel/Captura de Tela (4035).png'; // Adicione o ca
 import image2 from './img-carousel/Captura de Tela (4036).png'; // Adicione o caminho correto para image2
 import image3 from './img-carousel/Captura de Tela (4037).png'; // Adicione o caminho correto para image3
 
+
+
+
 import myImage from '../home/img-home/DSCN9271.jpg';
 import Banner from '../home/Banner';
 import Modal from '../home/Modal';
@@ -34,6 +37,7 @@ export default function Home() {
 
   return (
     <div>
+      
       <Navbar />
       <Carousel/>
      

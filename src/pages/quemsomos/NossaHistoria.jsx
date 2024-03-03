@@ -2,10 +2,13 @@ import React from 'react';
 import Footer from '../../Footer';
 import Navbar from '../../Navbar';
 import Imagem from '../quemsomos/img-nossahistoria/Francisco Soares da Silva.png';
-
+import { Helmet } from 'react-helmet';
 const NossaHistoria = () => {
   return (
     <div>
+      <Helmet>
+        <link rel="icon" href="/Favicons/favicon-16x16.png" />
+      </Helmet>
       <Navbar />
       <main>
         <div className="bg-gray-100 min-h-screen py-12 px-4 sm:px-6 lg:px-8">

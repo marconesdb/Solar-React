@@ -29,12 +29,15 @@ import img24 from '../DoutrinaEspirita/img-oracoes/IMG-24.png'
 
 
 
-import audioPortugues1 from './Audio-Orações/Ó Deus, nosso Pai.mp3';
+import audioPortugues1 from './Audio-Orações/Oracao1.mp3';
 import audioEnglish1 from './Audio-Orações/O God, our Father.mp3';
 import audioEspanol1 from './Audio-Orações/Oh Dios, Padre nuestro.mp3';
+
+import audioPortugues2 from './Audio-Orações/Ó Grande criador do Universo (2).mp3';
 import audioEnglish2 from './Audio-Orações/O Great Creator of the Universe.mp3';
 import audioEspanol2 from './Audio-Orações/Oh Gran Creador del Universo.mp3';
 
+import audioPortugues4 from './Audio-Orações/Oração da Esperança.mp3';
 import audioEspanol4 from './Audio-Orações/Oración de Esperanza.mp3';
 import audioEnglish4 from './Audio-Orações/Prayer of Hope.mp3';
 
@@ -173,7 +176,7 @@ export default function Oracoes() {
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
+              <source src={audioPortugues2} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>
@@ -206,7 +209,7 @@ export default function Oracoes() {
           <div className="text-center md:text-left justify-center items-center">
             <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
             <p className="text-justify">
-             Oração da Esperança
+             <b>Oração da Esperança</b><br />
             Deus de esperança, Em um mundo cheio de incertezas, Nós te buscamos.
             Nos dá esperança para o futuro, Força para enfrentar os desafios, E paz para nossos corações.
             Ajuda-nos a ver o bem em cada pessoa, A encontrar beleza no mundo, E a viver com fé e alegria.
@@ -214,13 +217,13 @@ export default function Oracoes() {
             É claro que existem muitas outras maneiras de escrever uma oração dominical. A melhor maneira é encontrar uma oração que expresse sua própria fé e esperança.
               <br />
               <b>Prayer in English:</b><br />
-              Prayer of Hope God of hope, In a world full of uncertainty, We seek you. It gives us hope for the future, Strength to face challenges, And peace for our hearts. Help us to see the good in every person, To find beauty in the world, And to live with faith and joy. This prayer is a way of expressing our hope for the future. We ask God to give us strength to face challenges, peace in our hearts, and the ability to see the good in each person. Of course, there are many other ways to write a Sunday prayer. The best way is to find a prayer that expresses your own faith and hope.
+              <b>Prayer of Hope</b><br /> God of hope, In a world full of uncertainty, We seek you. It gives us hope for the future, Strength to face challenges, And peace for our hearts. Help us to see the good in every person, To find beauty in the world, And to live with faith and joy. This prayer is a way of expressing our hope for the future. We ask God to give us strength to face challenges, peace in our hearts, and the ability to see the good in each person. Of course, there are many other ways to write a Sunday prayer. The best way is to find a prayer that expresses your own faith and hope.
               <br/><b>Oración en español:</b><br/>
-              Oración de Esperanza Dios de esperanza, En un mundo lleno de incertidumbre, Te buscamos. Nos da esperanza para el futuro, fuerza para afrontar los desafíos y paz para nuestros corazones. Ayúdanos a ver el bien en cada persona, a encontrar la belleza en el mundo y a vivir con fe y alegría. Esta oración es una manera de expresar nuestra esperanza para el futuro. Le pedimos a Dios que nos dé fuerza para enfrentar los desafíos, paz en nuestro corazón y la capacidad de ver el bien en cada persona. Por supuesto, hay muchas otras formas de escribir una oración dominical. La mejor manera es encontrar una oración que exprese su propia fe y esperanza.
+              <b>Oración de Esperanza</b><br /> Dios de esperanza, En un mundo lleno de incertidumbre, Te buscamos. Nos da esperanza para el futuro, fuerza para afrontar los desafíos y paz para nuestros corazones. Ayúdanos a ver el bien en cada persona, a encontrar la belleza en el mundo y a vivir con fe y alegría. Esta oración es una manera de expresar nuestra esperanza para el futuro. Le pedimos a Dios que nos dé fuerza para enfrentar los desafíos, paz en nuestro corazón y la capacidad de ver el bien en cada persona. Por supuesto, hay muchas otras formas de escribir una oración dominical. La mejor manera es encontrar una oración que exprese su propia fe y esperanza.
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
+              <source src={audioPortugues4} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>

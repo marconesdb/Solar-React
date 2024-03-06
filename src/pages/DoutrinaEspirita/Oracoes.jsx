@@ -40,11 +40,11 @@ import audioEspanol2 from './Audio-Orações/Oh Gran Creador del Universo.mp3';
 import audioPortugues4 from './Audio-Orações/Oração da Esperança.mp3';
 import audioEspanol4 from './Audio-Orações/Oración de Esperanza.mp3';
 import audioEnglish4 from './Audio-Orações/Prayer of Hope.mp3';
-
+import audioPortugues10 from './Audio-Orações/Perdão 2.mp3'
 import audioEspanol10 from './Audio-Orações/Perdón.mp3';
 import audioEnglish10 from './Audio-Orações/Forgiveness.mp3';
 
-
+import audioPortugues11 from './Audio-Orações/Oração para quem tem fome no Natal.mp3'
 import audioEspanol11 from './Audio-Orações/Oración por los que tienen hambre en Navidad-Espanhol.mp3';
 import audioEnglish11 from './Audio-Orações/Prayer for those who are hungry at Christmas-Inglês.mp3';
 
@@ -281,7 +281,7 @@ export default function Oracoes() {
 
               Consolando aquêle que sofre, dá-lhe o teu amor. Alegra-te com quem é feliz, agradecendo ao Senhor por ele. Que a rotina não diminua o ardor dos teus atos.
 
-              Nunca justifiques o que é condenável. Nem toleres o mal que o mundo aceita. E a Paz do Natal descerá sobre Ti.
+              Nunca justifiques o que é condenável. Nem toleres o mal que o mundo aceita. E a Paz  descerá sobre Ti.
               <br />
               <b>Prayer in English:</b>
                       <p><b>Forgiveness</b></p>
@@ -303,7 +303,7 @@ export default function Oracoes() {
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
+              <source src={audioPortugues10} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>
@@ -389,7 +389,7 @@ export default function Oracoes() {
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
+              <source src={audioPortugues11} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>

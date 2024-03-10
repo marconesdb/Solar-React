@@ -56,8 +56,8 @@ import imagem45 from '../quemsomos/img-galeria/Evangelizacao/img-45.jpeg';
 import imagem46 from '../quemsomos/img-galeria/Evangelizacao/img-46.jpeg';
 import imagem47 from '../quemsomos/img-galeria/Evangelizacao/img-47.jpeg';
 import imagem48 from '../quemsomos/img-galeria/Evangelizacao/img-48.jpeg';
-
-
+import encontro1 from '../quemsomos/img-galeria/Encontros/encontro1.jpeg'
+import encontro2 from '../quemsomos/img-galeria/Encontros/encontro2.jpeg'
 
 const images1 = [
 
@@ -318,8 +318,25 @@ description: 'Costura'
     original: imagem48,
     thumbnail: imagem48,
     description: 'Evangelização'
-}
+},
 
+
+// Encontros
+
+
+{
+    original: encontro1,
+    thumbnail: encontro1,
+    description: 'Encontros'
+},
+
+
+
+{
+    original: encontro2,
+    thumbnail: encontro2,
+    description: 'Encontros'
+}
 
 
 

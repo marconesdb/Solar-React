@@ -64,8 +64,10 @@ import audioPortugues14 from './Audio-Orações/Oração4.mp3'
 import audioPortugues15 from './Audio-Orações/Oração5.mp3'
 import audioEspanol15 from './Audio-Orações/Oración para pedir perdón.mp3';
 import audioEnglish15 from './Audio-Orações/Prayer to ask for forgiveness.mp3';
+import audioPortugues16 from "./Audio-Orações/Oração6.mp3"
 import audioEspanol16 from './Audio-Orações/Chico Xavier- Espanhol.mp3';
 import audioEnglish16 from './Audio-Orações/Chico Xavier - Inglês.mp3';
+import audioPortugues17 from "./Audio-Orações/Oração7.mp3"
 import audioEspanol17 from './Audio-Orações/Oración por los Niños del Mundo-Espanhol.mp3';
 import audioEnglish17 from './Audio-Orações/Prayer for the Children of the World - Inglês.mp3';
 import audioEspanol18 from './Audio-Orações/Oración de Esperanza.mp3';
@@ -663,11 +665,10 @@ export default function Oracoes() {
             <h2 className="text-xl md:text-2xl font-bold mb-4">Prece</h2>
             <p className="text-justify">
                 Senhor, ensina-nos a orar sem esquecer o trabalho, a dar sem olhar a quem, a servir sem perguntar até quando, a sofrer sem magoar seja a quem for, a progredir sem perder a simplicidade, a semear o bem sem pensar nos resultados, a desculpar sem condições, a marchar para a frente sem contar os obstáculos, a ver sem malícia, a escutar sem corromper os assuntos, a falar sem ferir, a compreender o próximo sem exigir entendimento, a respeitar os semelhantes sem reclamar consideração, a dar o melhor de nós, além da execução do próprio dever sem cobrar taxas de reconhecimento.
-                Senhor, ensina-nos a orar sem esquecer o trabalho, a dar sem olhar a quem, a servir sem perguntar até quando, a sofrer sem magoar seja a quem for, a progredir sem perder a simplicidade, a semear o bem sem pensar nos resultados, a desculpar sem condições, a marchar para a frente sem contar os obstáculos, a ver sem malícia, a escutar sem corromper os assuntos, a falar sem ferir, a compreender o próximo sem exigir entendimento, a respeitar os semelhantes sem reclamar consideração, a dar o melhor de nós, além da execução do próprio dever sem cobrar taxas de reconhecimento.
+                
                 Senhor, fortalece em nós a paciência para com as dificuldades dos outros, assim como precisamos da paciência dos outros para com as nossas próprias dificuldades. Ajuda-nos para que a ninguém façamos aquilo que não desejamos para nós. Auxilia-nos sobretudo a reconhecer que a nossa felicidade mais alta será invariavelmente aquela de cumprir os desígnios, onde e como queiras, hoje, agora e sempre. Amém! pelo Espírito<i> Emmanuel</i>, psicografia de <i>Francisco Cândido Xavier</i>
               <br />
               <b>Prayer in English:</b><br />
-              Sir, teach us to pray without forgetting work, To give, without looking who, to serve without asking until when, to suffer without hurting anyone, to progress without losing simplicity, to sow good without thinking about the results, to apologize without conditions, to march forward without counting the obstacles, to see without malice, to listen without corrupting matters, to speak without hurting, to understand others without demanding understanding, to respect others without demanding consideration, to do our best, in addition to performing our own duties without charging recognition fees.
               Sir, teach us to pray without forgetting work, To give, without looking who, to serve without asking until when, to suffer without hurting anyone, to progress without losing simplicity, to sow good without thinking about the results, to apologize without conditions, to march forward without counting the obstacles, to see without malice, to listen without corrupting matters, to speak without hurting, to understand others without demanding understanding, to respect others without demanding consideration, to do our best, in addition to performing our own duties without charging recognition fees.
               Sir, strengthens our patience with difficulties of others, just as we need the patience of others to our own difficulties. Help us so that no one does that to anyone that we don't want for ourselves. Above all, it helps us to recognize that our higher happiness will invariably be that of fulfilling the designs, where and however you want, today, now and always. Amen! by the Spirit <i>Emmanuel</i>, psychography by <i>Francisco Cândido Xavier </i>
               <br />
@@ -676,7 +677,7 @@ export default function Oracoes() {
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
+              <source src={audioPortugues16} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>
@@ -722,7 +723,7 @@ export default function Oracoes() {
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
+              <source src={audioPortugues17} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>

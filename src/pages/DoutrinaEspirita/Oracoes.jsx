@@ -70,10 +70,13 @@ import audioEnglish16 from './Audio-Orações/Chico Xavier - Inglês.mp3';
 import audioPortugues17 from "./Audio-Orações/Oração7.mp3"
 import audioEspanol17 from './Audio-Orações/Oración por los Niños del Mundo-Espanhol.mp3';
 import audioEnglish17 from './Audio-Orações/Prayer for the Children of the World - Inglês.mp3';
+import audioPortugues18 from './Audio-Orações/Oração da Esperança.mp3'
 import audioEspanol18 from './Audio-Orações/Oración de Esperanza.mp3';
 import audioEnglish18 from './Audio-Orações/Prayer of Hope.mp3';
+import audioPortugues19 from './Audio-Orações/Oração para o cultivo do Amor.mp3'
 import audioEspanol19 from './Audio-Orações/Oración por el cultivo del amor.mp3';
 import audioEnglish19 from './Audio-Orações/Prayer for the Cultivation of Love.mp3';
+import audioPortugues20 from './Audio-Orações/Oração para o homem orgulhoso superar seus preconceitos.mp3'
 import audioEspanol20 from './Audio-Orações/Oración para que el hombre orgulloso supere sus prejuicios.mp3';
 import audioEnglish20 from './Audio-Orações/Prayer for the proud man to overcome his prejudices.mp3';
 import audioEspanol21 from './Audio-Orações/Oración por un rayo de luz en el mundo-Espanhol.mp3';
@@ -767,7 +770,7 @@ export default function Oracoes() {
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
+              <source src={audioPortugues18} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>
@@ -817,7 +820,7 @@ export default function Oracoes() {
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
+              <source src={audioPortugues19} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>
@@ -888,7 +891,7 @@ export default function Oracoes() {
             </p>
             <p><b><em>Oração em áudio: Português</em></b></p>
             <audio controls>
-              <source src={audioPortugues1} type="audio/mp3" />
+              <source src={audioPortugues20} type="audio/mp3" />
               Seu navegador não suporta o elemento de áudio.
             </audio>
             <p><b><em>Audio Prayer: English</em></b></p>

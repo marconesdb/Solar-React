@@ -8,7 +8,7 @@ import homenageado3 from '../quemsomos/img-homenageados/Mariza.jpeg';
 import homenageado4 from '../quemsomos/img-homenageados/Deuslira.jpeg';
 import homenageado5 from '../quemsomos/img-homenageados/Orion.jpeg';
 import homenageado6 from '../quemsomos/img-homenageados/Neuza.jpeg';
-
+import homenageado7 from '../quemsomos/img-homenageados/Marta.jpeg';
 
 
 
@@ -50,6 +50,13 @@ const homenageados = [
     nome: 'Maria Neuza Rameta Gonçalves', 
     descricao: <i>Falecia Trabalhadora do Centro Espírita Solar de Jesus</i>,
     imagem: homenageado6
+  },
+
+
+  { 
+    nome: 'Marta Spyer Rabelo', 
+    descricao: <i>Falecia Trabalhadora do Centro Espírita Solar de Jesus</i>,
+    imagem: homenageado7
   },
   
   // Adicione mais homenageados conforme necessário

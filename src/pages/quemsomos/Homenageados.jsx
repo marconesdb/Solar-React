@@ -10,7 +10,7 @@ import homenageado5 from '../quemsomos/img-homenageados/Orion.jpeg';
 import homenageado6 from '../quemsomos/img-homenageados/Neuza.jpeg';
 import homenageado7 from '../quemsomos/img-homenageados/Marta.jpeg';
 
-
+import homenageado8 from '../quemsomos/img-homenageados/Zeze.jpeg';
 
 
 
@@ -59,6 +59,12 @@ const homenageados = [
     imagem: homenageado7
   },
   
+
+  { 
+    nome: 'Maria José dos Santos Nunes (ZEZÉ)', 
+    descricao: <i>Falecia Trabalhadora do Centro Espírita Solar de Jesus</i>,
+    imagem: homenageado8
+  },
   // Adicione mais homenageados conforme necessário
 ];
   // Adicione mais homenageados conforme necessário
